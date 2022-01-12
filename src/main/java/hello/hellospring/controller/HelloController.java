@@ -40,14 +40,14 @@ public class HelloController {
         return hello;
     }
     static class Hello {
-        private String name;
+        private String name2;
 
         public String getName() {
-            return name;
+            return name2;
         }
 
         public void setName(String name) {
-            this.name = name;
+            this.name2 = name;
         }
     }
 }
